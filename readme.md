@@ -9,10 +9,10 @@ installeer de g++ extensie via deze [link](https://software-installation-guide.n
 
 hoe gebruik je de g++ 
 ```
-g++ <path-to-file> -o <path-to-build>
+g++ <path-to-file>
 ```
 example
 ```sh
-g++ main.cpp -o hello
+g++ main.cpp
 ```
 did maakt een exe aan genaamt hello in de directory waar je werkt
