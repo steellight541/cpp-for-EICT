@@ -16,3 +16,10 @@ example
 g++ main.cpp
 ```
 did maakt een exe aan genaamt hello in de directory waar je werkt
+
+## extra
+### timen
+
+```pws
+Measure-Command {start-process whateveryouwantexecute -Wait}
+```
