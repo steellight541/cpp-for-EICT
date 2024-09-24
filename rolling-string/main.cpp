@@ -24,6 +24,7 @@ void fallingString(std::string text)
             removeLastChar();
         }
     }
+    std::cout << std::endl;
 }
 
 
