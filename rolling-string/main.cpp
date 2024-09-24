@@ -15,8 +15,8 @@ void removeLastChar()
 }
 
 
-
-void fallingString(std::string text)
+// Function to display a rolling string
+void rollingString(std::string text)
 {
     std::string alphabet = "abcdefghijklmnopqrstuvwxyz";
     for (int i = 0; i < text.length(); i++)
@@ -33,7 +33,7 @@ void fallingString(std::string text)
 
 
 int main() {
-    fallingString("hottentottenteetentententoonstelling");
+    rollingString("hottentottenteetentententoonstelling");
     return 0;
 }
 
