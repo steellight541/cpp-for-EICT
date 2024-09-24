@@ -1,16 +1,20 @@
 #include <iostream>
 #include <windows.h>
 
+// Function to send a character to the console
 void sendChar(char c)
 {
     std::cout << c;
     Sleep(50);
 }
 
+// Function to remove the last character from the console
 void removeLastChar()
 {
     std::cout << "\b \b";
 }
+
+
 
 void fallingString(std::string text)
 {
